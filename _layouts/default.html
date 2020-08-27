@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146409900-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146409900-2');
+</script>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000" />
+	  <meta property="og:image" content="{{site.logo}}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+     <!-- Web Application Manifest -->
+	<link rel="manifest" href="manifest.webmanifest">
+	
+	<!-- Add to homescreen for Chrome on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="XinYaanZyoy">
+	<meta name="theme-color" content="grey">
+	
+	<!-- Add to homescreen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="XinYaanZyoy">
+	<meta name="apple-mobile-web-app-status-bar-style" content="grey">
+	
+	<!-- Tile icon for Win8 -->
+	<meta name="msapplication-TileColor" content="grey">
+	<meta name="msapplication-navbutton-color" content="grey">
+	  
+	  <style>
+		  .video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    </style>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+  </script>
+  
+</head>
+
+  <body>
+	  <hr>
+    <header>
+      <div class="container" style="text-align:center">
+        <h1> <a href="/onlinecoursenotes">onlinecoursenotes</a> </h1>
+        <h5 id="nav"></h5>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+   <hr>
+	  <script>
+	    url = document.URL;
+	    x = [];
+	    url.split('/').forEach((e)=>{if(e!="")x.push(e)});
+	    if(x.length == 4){
+		name = x.pop();
+		tag = document.getElementById("nav");
+		y = "/ <a href=\"\/onlinecoursenotes\/"+name+"\">"+name+"</a>";
+		tag.innerHTML = y;
+	    }
+	    if(x.length > 4){
+		name1 = x[3];
+		name2 = x.pop().split('.');
+	    	if(name2.includes("html") || name2.includes(".md"))
+		name2.pop();
+		name2 = name2.join('.');
+		tag = document.getElementById("nav");
+		y = "/ <a href=\"\/onlinecoursenotes\/" + name1 + "\">" + name1 + "</a> / <a href=\"" + document.URL + "\">" + name2 + "</a>";
+		tag.innerHTML = y;
+	    }
+    </script>
+    <div style="color: green; fonst-family: consolas, monospace; font-size: 10px;">
+  <span><strong> XinYaanZyoy | XinYaanZyoy@gmail.com </strong></span>
+  <span>, Copyright © 2020 - <script>document.write(new Date().getFullYear())</script>. No Rights Reserved. Except where otherwise noted, All The PDFs and Videos are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a></span>
+</div>
+  </body>
+</html>
