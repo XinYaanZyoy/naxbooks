@@ -12,27 +12,27 @@ ______________
 ## INDEX
 
 1. What is Motion?
-  1. [What is Causing Motion?](Physics/notes/1/1.1)
-  2. Do System of Points behave differently than Point?
-  3. What about Rotations, is it Motion?
+  - [What is Causing Motion?](Physics/notes/1/1.1)
+  - Do System of Points behave differently than Point?
+  - What about Rotations, is it Motion?
 2. What is Energy?
-  1. Does Particle Posses Energy?
-  2. Does System of Particle Possses Energy?
-  3. What about Rotations?
+  - Does Particle Posses Energy?
+  - Does System of Particle Possses Energy?
+  - What about Rotations?
 3. What is Fundamental?
-  1. What is Fundamental, Energy or Force?
-  2. What is Field?
+  - What is Fundamental, Energy or Force?
+  - What is Field?
 4. What is Matter?
-  1. What is this Physical World made up of?
-  2. What is Gravitation?
-  3. Do Solids Flow?
-  4. How Fluids Flow?
-  5. What Causes Cold and Hot?
-  6. 
+  - What is this Physical World made up of?
+  - What is Gravitation?
+  - Do Solids Flow?
+  - How Fluids Flow?
+  - What Causes Cold and Hot?
+  -
 5. What is Wave?
-  1. is Wave a Motion?
-  2. What is Vibration?
-  3. 
+  - is Wave a Motion?
+  - What is Vibration?
+  -
 6. What is Sound?
 7. Why Do Amber Buttons Attract Hair?
 8. What is a Magnet?

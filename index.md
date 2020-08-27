@@ -6,7 +6,7 @@ layout: default
 ## these are notebooks to prepare myself to teach my sister to prepare for IIT-JEE
 
 **LIST OF NOTES**
-- [PHYSICS](/NAxBooks/Physics)
+- [PHYSICS](/NaxBooks/Physics)
 - [MATHEMATICS](/NaxBooks/Mathematics)
 
 ________________
