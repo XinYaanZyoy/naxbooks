@@ -4,7 +4,7 @@ permalink: /Physics
 ---
 
 # Physics
-- description: this notes are meant to bring crystality in thought process of my sister's mind, bring a structured web of concepts and ideas. and also to prepare my own thought process to be ready for any loop-holes.
+- **Description**: this notes are meant to bring crystality in thought process of my sister's mind, bring a structured web of concepts and ideas. and also to prepare my own thought process to be ready for any loop-holes.
 
 **DISCLAIMER**: *"i do not know so many things, i know some things", this is understood widely, but i'd also add that, "i know what i know and don't know", though there might be things that i don't know yet that i don't know, therefore the sole purpose of these notes are written in a hope to find the answers to the questions of which answers i know i don't know. there's no intention to know something i don't yet know that i don't know! this is not to limit my learning or relearning or unlearning process but to produce a quality work of the things i already know but have fuzzier connections of understanding.*
 
